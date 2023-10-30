@@ -1,0 +1,17 @@
+[33mcommit adb456b13074941733f3c47ccf05b50f75271c4e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: abdonaser <abdonaser4223@gmail.com>
+Date:   Mon Oct 30 07:26:05 2023 +0200
+
+    sec commit
+
+[33mcommit f7de3b9bf79143381f01464f818d665fe568e318[m
+Author: abdonaser <abdonaser4223@gmail.com>
+Date:   Mon Oct 30 07:11:50 2023 +0200
+
+    Configure React app for deployment to GitHub Pages
+
+[33mcommit b5ba77c76262274299bd9af7f9d610f65aa890c8[m
+Author: abdonaser <abdonaser4223@gmail.com>
+Date:   Tue Oct 3 10:01:38 2023 +0300
+
+    Initialize project using Create React App

@@ -99,7 +99,7 @@ export function CartContextProvider( {children}){
             setTotalCartPrice(0)
             setNumOfCartItems(0)
              
-
+              consol.log("data removed from a cart  successfully ")
         } catch (e) {
              console.log("removeCart error",e.response.data.statusMsg );
             
