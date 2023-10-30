@@ -80,11 +80,11 @@ export default function Payment() {
         }
       );
       removeCart();
-      // console.log(data);
-      toast.success("your cart added to order Your page successfully");
+      console.log(data);
+      toast.success("your cart added to order Your page successfully...");
     } catch (error) {
-      console.log("cash payment error", error);
-      toast.error("your cart doesnt added to Your order page ");
+      console.log("cash payment error", error.response.data.message);
+      toast.error(error.response.data.message);
     }
   }
 
