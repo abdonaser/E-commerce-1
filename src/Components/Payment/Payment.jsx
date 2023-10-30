@@ -79,7 +79,7 @@ export default function Payment() {
           headers: { token: localStorage.getItem("token") },
         }
       );
-      // removeCart();
+      removeCart();
       // console.log(data);
       toast.success("your cart added to order Your page successfully");
     } catch (error) {
